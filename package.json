@@ -1,0 +1,17 @@
+{
+  "name": "cypress_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "edgeHeaded": "cypress run --headed --browser edge",
+    "ChromeHeaded": "cypress run --headed --browser chrome",
+    "edgeHeadedMobile": "cypress run --config  viewportHeight=360,viewportWidth=800 --headed --browser edge "
+  },
+
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
