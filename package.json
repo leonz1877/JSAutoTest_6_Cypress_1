@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "edgeHeaded": "cypress run --headed --browser edge",
-    "ChromeHeaded": "cypress run --headed --browser chrome",
-    "edgeHeadedMobile": "cypress run --config  viewportHeight=360,viewportWidth=800 --headed --browser edge "
+    "edgeHeadedNotebooks": "cypress run --config  viewportHeight=1366,viewportWidth=768 --headed --browser edge",
+    "chromeHeadedNotebooks": "cypress run --config  viewportHeight=1366,viewportWidth=768 --headed --browser chrome",
+    "chromeHeadedMobile": "cypress run --config  viewportHeight=360,viewportWidth=800 --headed --browser chrome",
+    "edgeHeadedMobile": "cypress run --config  viewportHeight=360,viewportWidth=800 --headed --browser edge",
+    "edgeHeadlessNotebooks": "cypress run --config  viewportHeight=1366,viewportWidth=768 --browser edge",
+    "chromeHeadlessNotebooks": "cypress run --config  viewportHeight=1366,viewportWidth=768 --browser chrome",
+    "chromeHeadlessMobile": "cypress run --config  viewportHeight=360,viewportWidth=800 --browser chrome",
+    "edgeHeadlessMobile": "cypress run --config  viewportHeight=360,viewportWidth=800 --browser edge"
   },
 
   "author": "",
