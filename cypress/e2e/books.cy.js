@@ -1,5 +1,3 @@
-Cypress.env("mobile");
-
 it("Should successfully add new book", () => {
   cy.visit("/");
 
